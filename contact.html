@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>
+        <nav>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <ul id="primary-navigation" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch with me for project inquiries, collaboration opportunities, or just to say hello!</p>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <i class="fa fa-envelope"></i>
+                    <p>johndoe@example.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-phone"></i>
+                    <p>+44 123 456 7890</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Northampton, United Kingdom</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fa fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send me a message</h3>
+                <form action="mailto:johndoe@example.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 John Doe Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fa fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
